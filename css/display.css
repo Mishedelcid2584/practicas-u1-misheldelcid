@@ -1,0 +1,31 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0; padding: 0;}
+
+section, div {box-sizing: border-box; }
+
+.container {display: flex; 
+
+padding: 15px;
+flex-flow: row wrap;
+justify-content: space-between;
+min-height: 150px;
+width: 60%;
+margin: 0 auto;}
+
+.item p {padding-bottom: 20px;
+font-size: 1.3em;}
+
+.item {padding: 15px;
+width: 50%;
+}
+
+.segundo { align-self: flex-start;}
+
+.item img {width: 100%;
+height: auto;
+border-radius: 4px;
+border: 8px solid white;
+box-shadow: 0px 0px 3px black;}
+
+.firu {padding: 0px}

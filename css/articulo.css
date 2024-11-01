@@ -1,0 +1,21 @@
+/* Documento CSS*/
+
+    * {margin: 0;
+       padding: 5px;
+       font-family: "raleway";}
+
+       body {background-color: #9fd5f9;}
+
+       h1{background-color: #50adff;
+        color: azure;
+        text-align: center;
+        padding: 15px 0px;}
+
+        h2 {color: blue;
+            text-align: center;}
+
+        h3{color: #1f72c5;}
+
+        .playa{background-color: rgb(190, 224, 251);}
+
+        

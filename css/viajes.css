@@ -1,0 +1,27 @@
+
+/* Documento CSS*/
+
+* {margin: 0;
+    padding: 0px;
+ font-family:"poppins";}
+
+
+     body {background-color: #f6c2c2;}
+
+
+     h1{background-color: #ff7018;;
+         color: azure;
+         text-align: center;
+         padding: 15px 5px;}
+
+    h2 {text-align: center;}
+
+    .caja{margin: 0px auto 20px auto;
+        width: 500px;
+        padding: 10px;}
+    
+
+     footer {background-color: #ff7018;
+         color: azure;
+         text-align: center;
+         padding: 30px;}
