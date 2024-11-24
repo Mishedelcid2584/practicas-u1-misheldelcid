@@ -1,0 +1,61 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;padding: 0;}
+
+header, div, nav, a {box-sizing: border-box;}
+
+.body{font-family: "Montserrat Alternates", sans-serif;}
+
+/*ENCABEZADOS*/
+
+h1{}
+
+h2{}
+
+/*LAYOUT*/
+.cabecera {width: 100%;
+min-height: 1px;
+background-color: rgb(93, 93, 169);}
+
+.bar {width: 100%;
+min-height: 1px;
+}
+
+.logo{text-align: center;
+font-size: 3em;
+padding: 8px 0px;}
+
+.menu{width: 100%;
+min-height: 1px;}
+
+.link{ width: 100%;min-height: 1px; 
+    background-color: rgb(224, 195, 250);
+display: flex;}
+
+.item{width: 25%;
+min-height: 1px;
+text-align: center;
+padding: 8px 0px 8px 0px;
+border: 1px solid rgba(0, 0, 0, 0.149);
+color: black;
+font-weight: 700;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 0.7em;
+}
+
+
+.item:active {background-color: violet;
+color: aliceblue;}
+
+
+/*Media o pantallas*/
+@media only screen and (min-with:1024px)
+
+.link { width: 70%; margin auto}
+
+.item:first-child{border-top-left-radius: 20px;
+border-top-left-radius:20px ;}
+
+.item:first-child{border-top-right-radius: 20px;
+    border-top-right-radius:20px ;}
